@@ -114,14 +114,126 @@ function closeNav() {
 <body>
 
 <h1 class="responsive" style="font-size:5vw;text-align:center;">About</h1>
-<p class="responsive" style="font-size:4vw;text-align:center;">Hello to every one I am Gokul charan I develovped this app/site on 2021-12-19.I am 12 years old.I am founder of the Valiant apps and games.I develovped Snapgram,Snapgram infnite,Valiant browser,Kid joy(officialy not in playstore/rejected).I am studying in 7th grade my school name is Pem School Of Excellence.I like to play chess and some video games.I started coding when i am in 5th grade at present I am learning javascript,html,python,css planning to learn java and css i Know mostly java is used in android app develovpement.
+<p class="responsive" style="font-size:4vw;text-align:center;">Hello to every one I am Gokul charan I develovped this app/site on 2021-12-19.I am 12 years old.I am founder of the Valiant apps and games.I develovped Snapgram,Snapgram infnite,Valiant browser,Kid joy(officialy not in playstore/rejected).I am studying in 7th grade my school name is Pem School Of Excellence.I like to play chess and some video games.I started coding when I am in 5th grade at present I am learning javascript,html,python,css planning to learn java and C++
 for some fun and for some tech videos visit my Youtube channel
-link:<a href=https://www.youtube.com/channel/UChyT0K5xWaFzvIYiKWq2WVw/videos>click here to see my youtube videos </p>
+link:<a href=https://www.youtube.com/channel/UChyT0K5xWaFzvIYiKWq2WVw/videos>click here to see my youtube videos</a></p>
 </body>
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 5vw;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+</style>
+</head>
+<body>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://lh3.googleusercontent.com/RXWu3WMB5ZuMgTv23HANbtCcCAv0dtkgpbdZWt-EDhtlPPrLtw7Q0JkqaYD1rJHnDF0hkZV7s5DhtqLRLsZByLWPRFgnWiuB7x90mW1uO-x-qV6MqbJbNsgRF1v3ETkp9Ov3YKixcn3zrs0iJdUE-xocqSvRzYyR_pcmqEQqcDfvfZxOTfh4tw8ixBYlYcUJvEz6WejvHbp_1E8Plm8QOSGFwadEIowTovXYaF2uKaTt6ylzyLXRTUGxRuorGINtOFO0oypGGaUh9REAJZaB-aWzjPecQR9_KA2ed_9YKmzIdAL6UacCtKIPYPTM9-7Vec0HNQkHsL8rQ_QU8mVyA0NAzeywRKPwqm3zfHHTvHwdeFbx0eQwVTnW7LNzS2Hcuu0u6VgwZHf_UlHlM-68dMOp-KDV0NIbl-d2WZbBeZozTn8uaKjkvHLsfb2MZfr7llb4bBaIiZ3Q6VR0NCjStGRx8limwutKp0WJL6QXnzpynO9ogxbGLfzgV69IN64WJpGSxb_GRsjcLC5P6vuwQ8_eTdlioiOEDGkzB3uSif5twJ31R62jVgmLMxrtO96SrPK_Xyq5Ce2cETmuxhVMM8guz864_KolNknNU7cQSEOdFpshdX4WqXcIXAs585xjwfnAFFrI3jVdJiciIFbcnnxMRCNKxEogMdAyz8T3Oi6JGXgyudJK0ekChM5xrupNDWX2E0lDd2nULqgnv1YlgvhO=w667-h657-no?authuser=0" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Gokul Charan</h2>
+        <p>Hello I am Gokul charan i am studying in grade 7 you can contact me through.</p>
+        <a href=https://mail.google.com/>thegovaliant@gmail.com</a>
+        <p><a href="https://mail.google.com/"class="button"><span>Contact </span></a></p>
+      </div>
+    </div>
+  </div>
 <script SameSite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
 <script>
   var myLandbot = new Landbot.Livechat({
     configUrl: 'https://chats.landbot.io/v3/H-1087396-E4QEW9JDTUZ4R0FM/index.json',
   });
 </script>
+</div>
 </html> 
